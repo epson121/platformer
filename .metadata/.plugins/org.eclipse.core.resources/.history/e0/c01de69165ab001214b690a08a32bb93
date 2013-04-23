@@ -1,0 +1,27 @@
+package game.platformer;
+
+import org.andengine.engine.camera.Camera;
+import org.andengine.entity.sprite.AnimatedSprite;
+import org.andengine.extension.physics.box2d.PhysicsWorld;
+import org.andengine.opengl.vbo.VertexBufferObjectManager;
+
+import com.badlogic.gdx.physics.box2d.Body;
+
+public class Player extends AnimatedSprite {
+	
+	// ---------------------------------------------
+	// VARIABLES
+	// ---------------------------------------------
+	    
+	private Body body;
+
+
+
+	public Player(float pX, float pY, VertexBufferObjectManager vbo, Camera camera, PhysicsWorld physicsWorld)
+    {
+        super(pX, pY, ResourcesManager.getInstance().player_region, vbo);
+    }
+	
+	public abstract void onDie();
+
+}

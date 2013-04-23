@@ -1,0 +1,13 @@
+package game.platformer;
+
+import org.andengine.entity.sprite.Sprite;
+
+public class LevelCompleteWindow extends Sprite {
+	
+	public LevelCompleteWindow(VertexBufferObjectManager pSpriteVertexBufferObject)
+    {
+        super(0, 0, 650, 400, ResourcesManager.getInstance().complete_window_region, pSpriteVertexBufferObject);
+        attachStars(pSpriteVertexBufferObject);
+    }
+
+}

@@ -1,0 +1,25 @@
+package game.platformer;
+
+import org.andengine.entity.sprite.Sprite;
+import org.andengine.opengl.vbo.VertexBufferObjectManager;
+
+public class LevelCompleteWindow extends Sprite {
+
+	private TiledSprite star1;
+    private TiledSprite star2;
+    private TiledSprite star3;
+    
+    public enum StarsCount
+    {
+        ONE,
+        TWO,
+        THREE
+    }
+	
+	public LevelCompleteWindow(VertexBufferObjectManager pSpriteVertexBufferObject)
+    {
+        super(0, 0, 650, 400, ResourcesManager.getInstance().complete_window_region, pSpriteVertexBufferObject);
+        attachStars(pSpriteVertexBufferObject);
+    }
+
+}

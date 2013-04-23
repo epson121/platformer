@@ -1,0 +1,9 @@
+package game.platformer;
+
+import org.andengine.entity.sprite.Sprite;
+
+public class LevelCompleteWindow extends Sprite {
+	
+	
+
+}

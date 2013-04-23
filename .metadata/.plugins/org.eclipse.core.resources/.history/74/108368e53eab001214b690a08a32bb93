@@ -1,0 +1,42 @@
+package game.platformer;
+
+import org.andengine.entity.sprite.Sprite;
+
+import game.platformer.SceneManager.SceneType;
+
+public class SplashScene extends BaseScene {
+	
+	//#####################################################
+	// VARIABLES
+	//#####################################################
+		
+	private Sprite sprite;
+	
+	
+	//#####################################################
+	// CLASS LOGIC
+	//#####################################################
+	@Override
+	public void createScene() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onBackKeyPressed() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public SceneType getSceneType() {
+		return SceneType.SCENE_SPLASH;
+	}
+
+	@Override
+	public void disposeScene() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

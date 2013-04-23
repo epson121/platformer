@@ -1,0 +1,14 @@
+package game.platformer;
+
+import org.andengine.entity.sprite.AnimatedSprite;
+import org.andengine.entity.sprite.vbo.ITiledSpriteVertexBufferObject;
+import org.andengine.opengl.texture.region.ITiledTextureRegion;
+
+public class Player extends AnimatedSprite {
+
+	public Player(float pX, float pY, VertexBufferObjectManager vbo, Camera camera, PhysicsWorld physicsWorld)
+    {
+        super(pX, pY, ResourcesManager.getInstance().player_region, vbo);
+    }
+
+}

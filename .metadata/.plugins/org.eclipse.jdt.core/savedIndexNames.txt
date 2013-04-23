@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/home/luka/Documents/dev/android_java/PlatformerGame/.metadata/.plugins/org.eclipse.jdt.core
+3572292229.index
+1886077704.index
+3707557689.index
+781794860.index
+30953894.index
